@@ -1,0 +1,37 @@
+﻿{
+  "expo": {
+    "name": "BLADE",
+    "slug": "blade-barber-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "BLADE",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B0B0B",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.blade"
+    },
+    "android": {
+      "package": "com.example.blade"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0B0B0B",
+          "resizeMode": "contain"
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
